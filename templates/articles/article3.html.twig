@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+{% block title %}Admin - Projet{% endblock %}
+{% block stylesheets %}
+            {{ parent() }}
+{% endblock %}
+
+{% block body %}
+<div class="card" style="width: 18rem;background: aliceblue;display: flex; margin-left: 40%;">
+  <div class="card-body">
+    <h5 class="card-title">Équipe</h5>
+    <p class="card-text" style="color: black;">Il y avait un chef de projet Béatrice ,  un développeur technique Julien, un développeur produit Géraldine, trois altenants Levy, Bryan, Mosab et moi en tant que stagiaire au sein de l'équipe S.U.C.R.E.
+Cette équipe faisait parti de l'équipe recherche et développement composée de  deux chefs de projet Laurent, Lorin, un développeur Denis et un alternant Adrien.</p>
+    <!--<a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>!-->
+  </div>
+</div>
+{% endblock %}
+
+{% block javascripts %} {{ parent() }} {% endblock %}

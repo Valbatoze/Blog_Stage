@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+{% block title %}Admin - Projet{% endblock %}
+{% block stylesheets %}
+            {{ parent() }}
+{% endblock %}
+
+{% block body %}
+<div class="card" style="width: 18rem; background: aliceblue; display: flex; margin-left: 40%;" >
+  <div class="card-body">
+    <h5 class="card-title">Arrivée</h5>
+    <p class="card-text" style="color: black;">Je suis arrivé en entretien le mardi 22 juin pour un poste de web développeur à la caisse primaire d'assurance maladie des Hauts de Seine à Nanterre. Auparavant j'ai du realisé un test en 5min au lieu de 30min pour cause de réunion du responsable.  Suite à cela j'ai commencé le jour même et il m'a présenté une partie de l'équipe avec laquelle j'allais travailler. Ils ont mis à ma disposition deux écrans, un clavier, une souris, un ordinateur portable ainsi qu'une carte agent et une carte d'accès à l'entreprise. </p>
+    <!--<a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>!-->
+  </div>
+</div>
+{% endblock %}
+
+{% block javascripts %} {{ parent() }} {% endblock %}

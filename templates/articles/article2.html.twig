@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+{% block title %}Admin - Projet{% endblock %}
+{% block stylesheets %}
+            {{ parent() }}
+{% endblock %}
+
+{% block body %}
+<div class="card" style="width: 18rem; background: aliceblue; display: flex; margin-left: 40%;">
+  <div class="card-body">
+    <h5 class="card-title">Les points sucre</h5>
+    <p class="card-text" style="color: black;">Ce sont de courtes réunions de 30min à 1h sur le projet s.u.c.r.e  qui avaient lieu le mardi matin et vendredi matin ou chacun prenait la parole. Durant ces réunions nous parlions le mardi des issues sur lesquelles nous allions travaillé et des nouvelles implémentations proposées par le client et savoir si c'était possible et utile de le faire. Le vendredi matin nous parlions des issues sur lesquelles nous avions  travaillé, si on avait réussi ou pas et des pb rencontrés, si l'issue était incorrecte ou trop compliquée elle devait être alors modifiée. </p>
+    <!--<a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>!-->
+  </div>
+</div>
+{% endblock %}
+
+{% block javascripts %} {{ parent() }} {% endblock %}

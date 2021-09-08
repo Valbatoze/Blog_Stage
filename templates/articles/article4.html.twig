@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+{% block title %}Admin - Projet{% endblock %}
+{% block stylesheets %}
+            {{ parent() }}
+{% endblock %}
+
+{% block body %}
+<div class="card" style="width: 18rem;background: aliceblue;display: flex; margin-left: 40%;">
+  <div class="card-body">
+    <h5 class="card-title">Team building</h5>
+    <p class="card-text" style="color: black;">Tous les jeudi en fin d'après-midi, une activité appelée "le Five" est mise en place au sein de l'équipe pour favoriser le team building.</p>
+    <!--<a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>!-->
+  </div>
+</div>
+{% endblock %}
+
+{% block javascripts %} {{ parent() }} {% endblock %}

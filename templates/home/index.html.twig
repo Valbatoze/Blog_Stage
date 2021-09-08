@@ -1,0 +1,314 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Home - Projet{% endblock %}
+{% block stylesheets %}
+            {{ parent() }}
+{% endblock %}
+{% block body %}
+    <div id="section-topbar">
+      <div id="topbar-inner">
+        <div class="container">
+          <div class="row">
+            <div class="dropdown">
+              <ul id="nav" class="nav">
+                <li class="menu-item"><a class="smothscroll" href="#about" title="À PROPOS"><i class="fa fa-user"></i> À PROPOS</a></li>
+                <li class="menu-item"><a class="smothscroll" href="#resume" title="Resume"><i class="fa fa-file-text-o"></i> Resume</a></li>
+                <li class="menu-item"><a class="smothscroll" href="#work" title="Works"><i class="fa fa-briefcase"></i> Work</a></li>
+                <li class="menu-item"><a class="smothscroll" href="#contact" title="Contact"><i class="fa fa-envelope"></i> Contact</a></li>
+              </ul>
+            <!--/ uL#nav -->
+            </div>
+          <!-- /.dropdown -->
+          <div class="clear"></div>
+        </div>
+        <!--/.row -->
+      </div>
+      <!--/.container -->
+
+      <div class="clear"></div>
+    </div>
+    <!--/ #topbar-inner -->
+  </div>
+  <!--/ #section-topbar -->
+
+  <div id="headerwrap">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-lg-12">
+          <h1>Blog de stage chez Asssurance Maladie </h1>
+          <h3>22/06/21 - 20/08/21</h3>
+        </div>
+        <!--/.col-lg-12 -->
+      </div>
+      <!--/.row -->
+    </div>
+    <!--/.container -->
+  </div>
+  <!--/.#headerwrap -->
+
+
+  <section id="about" name="about">
+    <div id="intro">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-lg-offset-1">
+            <h4>À PROPOS DE MOI</h4>
+          </div>
+          <div class="col-lg-8">
+            <p>Je suis Edwin Febvin, étudiant en deuxième année de Bachelor Informatique au sein de Paris Ynov Campus. Mes compétences principales sont dans le développement de jeu vidéo.</p>
+              <br></br>
+              <p>J’ai été en stage chez L'Asssurance Maladie pendant 2 mois. J’ai fait du développement web principalement front et du back. </p>
+          </div>
+          <div class="col-lg-3">
+            <a class="btn line-btn-dark btn-icon btn-radius" href="../CV.pdf" title=""<i class="fa fa-download" download></i></a>
+          </div>
+        </div>
+        <!--/.row -->
+      </div>
+      <!--/.container -->
+    </div>
+    <!--/ #intro -->
+  </section>
+
+
+  <section id="resume" name="resume">
+    <div class="container desc">
+      <div class="row">
+        <div class="col-lg-5 col-lg-offset-1">
+          <h4>À PROPOS DE L'ENTREPRISE</h4>
+          <div class="about-img-ent "></div>
+        </div>
+        <div class="col-lg-6 col-lg-offset-3">
+        <br></br>
+          <p>
+            Les Caisses Primaires d'Assurance Maladie (CPAM) assurent les relations de proximité avec les ayants droit de la Caisse Nationale d'Assurance Maladie (CNAM). Elles exercent une mission de service public dans le cadre de la politique de sécurité sociale.
+          </p>
+        </div>
+      </div>
+      <br></br>
+      <br></br>
+    </div>
+    <!--/.container -->
+  </section>
+
+  <div id="skillswrap">
+    <div class="container">
+        <h4 style="display: flex; justify-content:center;">SKILLS</h4>
+      <div class="row" style="justify-content: center;">
+        <div class="col-lg-3 centered">
+          <canvas id="javascript" height="130" width="130"></canvas>
+          <p>Javascript</p>
+          <br>
+        </div>
+        <div class="col-lg-3 centered">
+          <canvas id="bootstrap" height="130" width="130"></canvas>
+          <p>Bootstrap</p>
+          <br>
+        </div>
+        <div class="col-lg-3 centered">
+          <canvas id="wordpress" height="130" width="130"></canvas>
+          <p>PHP</p>
+          <br>
+        </div>
+
+        <div class="col-lg-3 col-lg-offset-3 centered">
+          <canvas id="html" height="130" width="130"></canvas>
+          <p>HTML/CSS</p>
+          <br>
+        </div>
+        <div class="col-lg-3 centered">
+          <canvas id="photoshop" height="130" width="130"></canvas>
+          <p>C#</p>
+          <br>
+        </div>
+        <div class="col-lg-3 centered">
+          <canvas id="illustrator" height="130" width="130"></canvas>
+          <p>C++</p>
+          <br>
+        </div>
+
+      </div>
+      <!--/.row -->
+      <br>
+    </div>
+    <!--/.container -->
+  </div>
+  <!--/ #skillswrap -->
+
+
+
+  <section id="work" name="work">
+
+    <div class="container desc centered" style="justify-content:center;">
+      <div class="row" style="justify-content:center;">
+        <div class="col-lg-8 col-lg-offset-1">
+          <h4 >PROJET SUR LEQUEL J'AI COLLABORÉ</h4>
+        </div>
+      </div>
+      <div class="row" style="justify-content:center;">
+        <div class="col-lg-6" >
+          <p>S.U.C.R.E</p>
+          <p>
+            <more> Une application web utililisé en interne comme au national, cette application était utililisé pour ajouter, modifier ou supprimer des créances de façon automatisées.  
+            </more>
+          </p>
+          </div>
+      </div>
+      <br>
+      <br>
+    </div>
+    <!--/.container -->
+  </section>
+  <div id="Hiérarchie">
+  <div class="container">
+  </br> 
+        <h4 style="display: flex; justify-content:center;">LA HIÉRARCHIE</h4>
+        <p style="display: flex; justify-content:center;">Recherche et Développement SI</p>
+      <div class="row" style="justify-content: center;display: grid;">
+        <div class="persona">
+        </div>
+          <div>
+            <p style="justify-content: center; display: flex;"> Mathieu Messe</p>
+            <p style="justify-content: center; display: flex;"> Responsable Recherche et Développement SI</p>
+          </div>
+        </div>
+  </div>
+  </div>
+  <section id="Blog" name="Blog">
+
+    <div class="container desc centered" style="justify-content:center;">
+      <div class="row" style="justify-content:center;">
+        <div class="col-lg-6">
+          <h4 >ARTICLES </h4>
+        </div>
+        <div class="d-flex justify-content-around articles-container">
+                
+          <div class="card" style="width: 18rem;">
+          <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+
+            <div class="card-body">
+              <h5 class="card-title">Arrivée</h5>
+              <p class="card-text">Je suis arrivé en entretien le mardi 22 juin pour un poste de web développeur à la caisse primaire d'assurance maladie des Hauts de Seine à Nanterre. ...</p>
+              <a href="/arrivé" class="btn btn-primary">Aller à l'article</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+          <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+
+            <div class="card-body">
+              <h5 class="card-title">Les points S.U.C.R.E</h5>
+              <p class="card-text">Ce sont de courtes réunions de 30min à 1h sur le projet s.u.c.r.e  qui avaient lieu le mardi matin et vendredi matin ou chacun prenait la parole ...</p>
+              <a href="/reunion" class="btn btn-primary">Aller à l'article</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+          <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+
+            <div class="card-body">
+              <h5 class="card-title">L'Equipe</h5>
+              <p class="card-text">Il y avait un chef de projet Béatrice ,  un développeur technique Julien, un développeur produit Géraldine, trois altenants Levy, Bryan, Mosab ...</p>
+              <a href="/equipe" class="btn btn-primary">Aller à l'article</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+          <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+
+            <div class="card-body">
+              <h5 class="card-title">"Team Building"</h5>
+              <p class="card-text">Tous les jeudi en fin d'après-midi, une activité appelée "le Five" est mise en place au sein de l'équipe pour favoriser le team building.</p>
+              <a href="/team_building" class="btn btn-primary">Aller à l'article</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+          <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+
+            <div class="card-body">
+              <h5 class="card-title">Ma mise en place</h5>
+              <p class="card-text">Regroupé dans un petit open space de 10 bureaux pour faciliter la communication et éviter les mails inutiles et la surconsommation en électricité ...</p>
+              <a href="/mise_en_place" class="btn btn-primary">Aller à l'article</a>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+      <div class="row" style="justify-content:center;">
+      </div>
+    </div>
+  </section>
+  <footer>
+        <section id="contact" name="contact">
+            <div id="footwrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <h5>CONTACT</h5>
+                        </div>
+                        <div class="col-lg-4">
+                            <p>
+                            <t>Email</t><br/> edwin.febvin@ynov.com <br/>
+                            </p>
+                            <p>
+                            <t>Adress</t><br/> 7 avenue du plateau <br/> 92700 <br/> Colombes, France. <br/>
+                            </p>
+                            <p>
+                            <t>Telephone</t><br/> 06.38.48.01.39
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>
+                            <t>Formulaire De Contact</T>
+                            </p>
+            <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
+
+              <div class="form-group">
+                <label for="contact-name">Votre Name</label>
+                <input type="name" name="name" class="form-control" id="contact-name" placeholder="Votre Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <label for="contact-email">Votre Email</label>
+                <input type="email" name="email" class="form-control" id="contact-email" placeholder="Votre Email" data-rule="email" data-msg="Please enter a valid email">
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <label for="contact-subject">Sujet</label>
+                <input type="text" name="sujet" class="form-control" id="contact-subject" placeholder="Sujet" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+                <div class="validate"></div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Votre Message</label>
+                <textarea class="form-control" name="message" id="contact-message" placeholder="Votre Message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+                <div class="validate"></div>
+              </div>
+
+              <div class="loading"></div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+
+              <div class="form-send">
+                <button type="submit" class="btn btn-large">Send Message</button>
+              </div>
+
+            </form>
+
+          </div>
+        </div>
+        <!--/.row -->
+      </div>
+      <!--/.container -->
+    </div>
+    <!--/ #footer -->
+    </section>
+    </footer>
+
+{{parent()}}
+{% endblock %}
+{% block javascripts %} {{ parent() }} {% endblock %}

@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+{% block title %}Admin - Projet{% endblock %}
+{% block stylesheets %}
+            {{ parent() }}
+{% endblock %}
+
+{% block body %}
+<div class="card" style="width: 18rem;background: aliceblue;display: flex; margin-left: 40%;">
+  <div class="card-body">
+    <h5 class="card-title">Mise en place</h5>
+    <p class="card-text">Regroupé dans un petit open space de 10 bureaux pour faciliter la communication et éviter les mails inutiles et la surconsommation en électricité produit par eux. Le télétravail était mis en place pour les CDI afin d'alléger le personnel dû aux différents événements rencontrés (grève RATP, COVID-19). La communication et l'ambiance de l'équipe se sont vu bonifiées et ont ainsi permis la mise en place de petits débats sur le projet.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+{% endblock %}
+
+{% block javascripts %} {{ parent() }} {% endblock %}
