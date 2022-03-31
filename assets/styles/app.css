@@ -413,3 +413,8 @@ sm {
   display: block;
   margin-left: 18%;
 }
+
+.rowbt{
+  margin-right: -15px;
+  margin-left: -15px;
+}
