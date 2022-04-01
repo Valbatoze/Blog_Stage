@@ -44,6 +44,7 @@ a {
   -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
   -o-transition: color 0.1s ease-in, background 0.1s ease-in;
   transition: color 0.1s ease-in, background 0.1s ease-in;
+  font-size: 25px;
 }
 
 a:hover, a:focus {
@@ -417,8 +418,4 @@ sm {
 .rowbt{
   margin-right: -15px;
   margin-left: -15px;
-}
-
-.smothscroll a{
-  font-size: 25px;
 }
